@@ -19,3 +19,5 @@ let solutionBrute =
         else brute (itera-1)
     in brute 999
     ;;
+
+Printf.printf "%s" (string_of_int(solutionBrute));;
